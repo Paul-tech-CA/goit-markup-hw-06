@@ -1,4 +1,8 @@
 
+
+
+
+
 :root {
     --primary-text-color: #757575;
     --title-text-color: #212121;
@@ -331,4 +335,10 @@ body {
 .link-icon-footer:hover .link-icon-picture-footer,
 .link-icon-footer:focus .link-icon-picture-footer {
     fill: var(--background-color-header);
+
+    
+
+
+/* =========================== Footer form ===================================================== */
+
 

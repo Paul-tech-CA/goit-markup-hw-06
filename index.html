@@ -377,6 +377,24 @@
                     </ul>
                 </div>
                 
+                <form class="form-footer">
+                    <b class="footer-losung">подпишитесь на рассылку</b>
+                    <div class="form-footer-sing">
+                         <div class="form-field-footer">
+                            <label for="mail" class="form-label">                            
+                            </label>
+                            <input type="email" class="form-input-footer"
+                            name="mail" id="mail" placeholder="E-mail">
+                        </div>
+                        <button type="submit" class="button primary">Подписаться
+                            <svg class="icon-footer-send" width="22" height="22">
+                                <use href="./images/sprite.svg#icon-icon-send"></use>
+                            </svg>
+                        </button>
+                    </div>
+                   
+
+                </form>
             </div>    
         </footer>
         
@@ -384,18 +402,64 @@
         <!-- Modal window -->
                    
         <div class="backdrop is-hidden" data-modal>
-            <div class="modal">
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.                        
-                    Obcaecati quas perferendis eum facere vel, voluptate aliquam 
-                    mollitia tenetur doloremque minus, rem maiores praesentium maxime odit.
-                     Necessitatibus rerum dolor incidunt inventore!
-                </p>
+            <div class="modal">                
                 <button data-modal-close class="button">
                     <svg class="data-modal-close">
                         <use href="./images/sprite.svg#icon-button-close"></use>
                     </svg>
                 </button>
+                
+                
+                <!-- Form -->
+
+                <form class="form">
+                    <p class="form-title">Оставте свои данные, мы Вам перезвоним</p>
+                    <div class="form-container">
+                        <div class="form-field">
+                            <label for="name" class="form-label">Имя                            
+                            </label>                            
+                            <input type="text" class="form-input"
+                            name="name" id="name">
+                            <svg class="icon-picture-moodal">
+                                <use href="./images/sprite.svg#icon-M-person-black"></use>
+                            </svg>
+                        </div>
+                        <div class="form-field">
+                            <label for="tel" class="form-label">Телефон                                                            
+                            </label>
+                            <input type="tel" class="form-input"
+                            name="tel" id="tel">
+                            <svg class="icon-picture-moodal">
+                                <use href="./images/sprite.svg#icon-M-phone-black"></use>
+                            </svg>
+                        </div>
+                        <div class="form-field">
+                            <label for="mail" class="form-label">Почта                                                           
+                            </label>
+                            <input type="email" class="form-input"
+                            name="mail" id="mail">
+                            <svg class="icon-picture-moodal">
+                                <use href="./images/sprite.svg#icon-M-email-black"></use>
+                            </svg>
+                        </div>
+                        <div class="form-field">
+                            <label for="comment" class="form-label">Комментарий
+                            </label>
+                            <textarea name="comment" id="comment" cols="30" rows="10">                                
+                            </textarea>
+                        </div>
+                    </div>
+                    
+                    <div class="form-field">
+                        <input type="checkbox" name="policy" id="policy">
+                        <label for="policy">Соглашаюсь с рассылкой и принимаю 
+                            <a href="#" class="link">Условия договора</a> 
+                        </label>
+                    </div>
+
+                    <button type="submit" class="button primary button-form">Отправить</button>
+                        
+                </form>
             </div>
         </div>          
     
