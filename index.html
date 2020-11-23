@@ -60,21 +60,7 @@
             <div class="container hero-section-con">
                 <h1 class="hero-title studio" >ЭФФЕКТИВНЫЕ РЕШЕНИЯ <br> ДЛЯ ВАШЕГО БИЗНЕСА</h1>
                 <button class="button primary link" data-modal-open>Заказать услугу</button>
-            </div>
-            
-            <!-- Modal window -->
-                   
-            <div class="backdrop is-hidden" data-modal>
-                <div class="modal">
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.                        
-                        Obcaecati quas perferendis eum facere vel, voluptate aliquam 
-                        mollitia tenetur doloremque minus, rem maiores praesentium maxime odit.
-                         Necessitatibus rerum dolor incidunt inventore!
-                    </p>
-                    <button data-modal-close>CLOSE</button>
-                </div>
-            </div>            
+            </div>                         
         </section>
         
         <!--Преимущества-->
@@ -393,7 +379,25 @@
                 
             </div>    
         </footer>
-  
+        
+
+        <!-- Modal window -->
+                   
+        <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.                        
+                    Obcaecati quas perferendis eum facere vel, voluptate aliquam 
+                    mollitia tenetur doloremque minus, rem maiores praesentium maxime odit.
+                     Necessitatibus rerum dolor incidunt inventore!
+                </p>
+                <button data-modal-close class="button">
+                    <svg class="data-modal-close">
+                        <use href="./images/sprite.svg#icon-button-close"></use>
+                    </svg>
+                </button>
+            </div>
+        </div>          
     
     <script src="./js/modal.js"></script>
 </body>
