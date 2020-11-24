@@ -489,6 +489,13 @@ justify-content:space-between;
     flex-direction: column;
 }
 
+.comment-area:focus{
+    border: 1px solid var(--accent-color);
+    box-sizing: border-box;
+    border-radius: 4px;
+    outline: none;
+}
+
 .comment-area{
     width: 448px;
     height: 120px;  

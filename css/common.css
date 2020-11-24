@@ -357,8 +357,6 @@ body {
     margin-right: 12px;
     padding-left: 16px;
 
-    color: rgba(255, 255, 255, 0.6);
-    /* padding: 16px 15px; */
 }
 
 .form-footer-sing {
@@ -367,7 +365,7 @@ body {
 
 .button-footer-form{
     width: 200px;
-    height: 40px;
+    height: 50px;
     font-weight: bold;
     font-size: 16px;
     line-height: 1.87;
@@ -386,12 +384,13 @@ body {
 
 
 .form-field-footer input{
-    width: 448px;
-    height: 40px;
+    width: 370px;
+    height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     box-sizing: border-box;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
+    background-color: color: var(--background-color-footer);
 }
 
 .icon-footer-send{
