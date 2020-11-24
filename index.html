@@ -386,7 +386,7 @@
                             <input type="email" class="form-input-footer"
                             name="mail" id="mail" placeholder="E-mail">
                         </div>
-                        <button type="submit" class="button primary">Подписаться
+                        <button type="submit" class="button-footer-form">Подписаться
                             <svg class="icon-footer-send" width="22" height="22">
                                 <use href="./images/sprite.svg#icon-icon-send"></use>
                             </svg>
@@ -442,22 +442,30 @@
                                 <use href="./images/sprite.svg#icon-M-email-black"></use>
                             </svg>
                         </div>
+                            
+                        
                         <div class="form-field">
                             <label for="comment" class="form-label">Комментарий
                             </label>
-                            <textarea name="comment" id="comment" cols="30" rows="10">                                
-                            </textarea>
+                            <textarea  name="comment-area" class="comment-area" id="comment">                                
+                            </textarea>                            
                         </div>
                     </div>
                     
-                    <div class="form-field">
-                        <input type="checkbox" name="policy" id="policy">
+                    <div class="form-field-check">
+                        <input class="checkbox section-title-dissapired" type="checkbox" value="agree" name="policy" id="policy">
+                        <span class="icon"><img class="icon" src="./images/icon-check.png" alt="cheked">
+                        </span>
                         <label for="policy">Соглашаюсь с рассылкой и принимаю 
                             <a href="#" class="link">Условия договора</a> 
                         </label>
                     </div>
 
-                    <button type="submit" class="button primary button-form">Отправить</button>
+                    <div class="wrapper-btn">
+                        <button type="submit" class="button primary button-form">Отправить                            
+                        </button>
+                    </div>
+                    
                         
                 </form>
             </div>
