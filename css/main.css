@@ -377,7 +377,7 @@ justify-content:space-between;
     border-radius: 4px;
 }
 
-.data-modal-close{
+.button-modal{
     position: absolute;
     top: 8px;
     right: 8px;
@@ -388,8 +388,13 @@ justify-content:space-between;
     border: 1px solid rgba(0, 0, 0, 0.1);
     box-sizing: border-box;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
 }
 
+.modal{
+    
+}
 
 /* ================ Form===================*/
 
@@ -498,6 +503,14 @@ justify-content:space-between;
     color: rgba(117, 117, 117, 0.5);
 }
 
+.comment-area::placeholder{
+    font-size: 14px;
+    line-height: 1,33;
+    letter-spacing: 0.01em;
+
+    color: rgba(117, 117, 117, 0.5);
+}
+
 .wrapper-btn{
     display: flex;
     justify-content: center;
@@ -523,14 +536,17 @@ justify-content:space-between;
     position: absolute;
 } */
 
-.icon{
-    display: inline-block;
+
+
+.policy:before{
+    content: "";
+    display: block;
     width: 20px;
     height: 20px;
-    /* background-color: tomato; */
     border: 2px solid black;
     border-radius: 4px;
-     
+    
+
 }
 /* 
 .cneckbox:checked + .icon{
@@ -540,11 +556,16 @@ justify-content:space-between;
 
 .policy{
     display: block;
-    outline: 1px solid black;
+    /* outline: 1px solid black; */
+    display: flex;
+    align-items: center;
 }
 
-.checkbox:checked + .checkbox::before{
-    background-image: url("./images/icon-check.png");
+.checkbox:checked + .policy::before{
+    background-image: url("../images/icon-check.png");
+    border: none;
+    background-repeat: no-repeat;
+    background-size: cover;
     
 }
 

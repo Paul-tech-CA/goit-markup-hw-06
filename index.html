@@ -403,8 +403,8 @@
                    
         <div class="backdrop is-hidden" data-modal>
             <div class="modal">                
-                <button data-modal-close class="button">
-                    <svg class="data-modal-close">
+                <button data-modal-close class="button-modal">
+                    <svg class="data-modal-close" width="40px" height="30px">
                         <use href="./images/sprite.svg#icon-button-close"></use>
                     </svg>
                 </button>
@@ -447,16 +447,16 @@
                         <div class="form-field">
                             <label for="comment" class="form-label">Комментарий
                             </label>
-                            <textarea  name="comment-area" class="comment-area" placeholder="Введите текст" id="comment" >                                
+                            <textarea name="text" class="comment-area" id="comment" placeholder="E-mail">                                
                             </textarea>                            
                         </div>
                     </div>
                     
                     <div class="form-field-check">
                         <input class="checkbox section-title-dissapired" type="checkbox" value="agree" name="policy" id="policy">
-                        <span class="icon"><img class="icon" src="./images/icon-check.png" alt="cheked">
-                        </span>
-                        <label for="policy">Соглашаюсь с рассылкой и принимаю 
+                        <!-- <span class="icon"><img class="icon" src="./images/icon-check.png" alt="cheked">
+                        </span> -->
+                        <label class="policy" for="policy"> $nbsp Соглашаюсь с рассылкой и принимаю 
                             <a href="#" class="link-modal">Условия договора</a> 
                         </label>
                     </div>
